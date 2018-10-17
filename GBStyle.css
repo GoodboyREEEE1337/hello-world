@@ -5,13 +5,6 @@
     margin: 0px auto;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-}
-
 .main-content.with-menu {
     margin-top: 40px;
 }
@@ -36,7 +29,7 @@ body {
 }
 
 .menu a {
-    padding: 0px 10px;
+    padding: 0px 5px;
     color: #FFF;
 }
 
