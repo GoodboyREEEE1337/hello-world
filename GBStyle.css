@@ -1,8 +1,13 @@
 /*Page for fonts: https://fonts.google.com/ */
 
 .main-content {
-    width: 600px;
+    width: 630px;
     margin: 0px auto;
+    background-color: #FFF;
+}
+
+.main-content .inner-content {
+    margin: 0 15px;
 }
 
 .main-content.with-menu {
@@ -11,6 +16,7 @@
 
 body {
     margin: 0px;
+    background-color: rgb(236, 236, 236);
 }
 
 * {
@@ -147,6 +153,10 @@ table {
     margin: 20px auto;
 }
 
+table {
+    margin-bottom: 0px;
+}
+
 .dewie-list {
     list-style: disc outside url(./dewie-logo-smol.png);
 }
@@ -163,11 +173,13 @@ table {
 th {
     padding: 15px;
     border: 2px solid #FFF;
+    border-radius: 4px;
 }
 
 td {
     padding: 10px;
     border: 2px solid #FFF;
+    border-radius: 4px;
 }
 
 ol {
