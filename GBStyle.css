@@ -24,6 +24,10 @@ body {
     align-items: flex-start;
 }
 
+form {
+    margin-left: auto;
+}
+
 .menu {
     width: 100%;
     height: 40px;
@@ -36,7 +40,7 @@ body {
 }
 
 .menu a {
-    padding: 0px 5px;
+    padding: 0px 10px;
     color: #FFF;
 }
 
@@ -57,7 +61,7 @@ body {
 .header{
     padding: 10px 0px;
     margin: 5px auto; 
-    font-family: helvetica;
+    font-family: 'Helvetica', sans-serif;
     color: rgb(255, 174, 0);
 }
 
@@ -66,6 +70,11 @@ body {
     color: #FFF;
     text-align: center;
     margin: 0 auto;
+}
+
+.line {
+    color: rgb(236, 236, 236);
+    margin-top: 50px;
 }
 
 a {
@@ -82,6 +91,7 @@ a {
     padding: 20px;
     margin: 5px auto;
     border: 1px solid rgb(255, 174, 0);
+    text-align: center;
   }
   
 .link-button:hover {
@@ -92,8 +102,38 @@ a {
 
 p,
 a,
-h3 {
+h3,
+input,
+.login {
     font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    color: #FFF;
+    margin-right: 5px;
+}
+
+input[type=text],
+input[type=password] {
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    padding: 2.5px 0px;
+    padding-left: 10px;
+    margin: 0px 5px;
+    background-color: #FFF;
+}
+
+input[type=submit] {
+    margin-left: 10px;
+    margin-right: 20px;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    background-color: #FFF;
+    padding: 2.5px 10px;
+}
+
+p {
+    line-height: 1.4;
 }
 
 ol,
@@ -104,6 +144,7 @@ table {
     color: gray;
     background-color: rgb(236, 236, 236);
     border-radius: 4px;
+    margin: 20px auto;
 }
 
 .dewie-list {
@@ -121,10 +162,12 @@ table {
 
 th {
     padding: 15px;
+    border: 2px solid #FFF;
 }
 
 td {
     padding: 10px;
+    border: 2px solid #FFF;
 }
 
 ol {
